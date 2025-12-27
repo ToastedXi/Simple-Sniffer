@@ -11,7 +11,7 @@ Perfect for learning network security fundamentals and building a hands on cyber
 This tool captures live network packets on a specified interface and displays key details (source/destination IP, ports, protocol, flags).  
 More importantly, it includes simple but effective detection rules to flag common threats, giving you practical exposure to how SOC analysts monitor and triage network activity.
 
-Built as an educational project to practice packet analysis, scripting detection logic, and understanding real-world network threats.
+Built as an educational project to practice packet analysis, scripting detection logic, and understanding real world network threats.
 
 No external dependencies beyond Scapy, just pure Python.
 
@@ -30,16 +30,14 @@ No external dependencies beyond Scapy, just pure Python.
 
 ---
 
-## ✨ Features
+## 🧠 What I Learned
 
-📡 Live packet capture and readable summaries  
-⚠️ Real-time alerts for:  
-- Suspiciously long DNS queries (potential DNS tunneling/exfiltration)  
-- High volume of SYN packets from a single source (potential port scan or SYN flood)  
-- Regular timed connections (potential C2 beaconing)  
-🔇 Default filter excludes noisy SSH traffic (port 22) for cleaner output on servers  
-⌨️ Command-line options for interface selection and packet limit  
-🧠 Easy to extend with new detection rules  
+- Understanding packet structure and network protocols (IP, TCP, UDP, DNS)
+- Writing detection logic for common threats using timing, volume, and pattern analysis
+- Using Scapy for packet capture and parsing in Python
+- Filtering traffic with BPF to reduce noise in real environments
+- Building clean, readable tools that simulate blue team monitoring workflows
+- Documenting and presenting security projects for a professional portfolio
 
 ---
 
