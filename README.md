@@ -53,12 +53,6 @@ Here are real outputs from running the sniffer on a live server:
 ### Suspicious Long DNS Query Alert (Potential Tunneling)
 ![Long DNS Alert](screenshots/long-dns-alert.png)
 
-### Potential Port Scan / SYN Flood Detected
-![SYN Flood Alert](screenshots/syn-flood-alert.png)
-
-### Potential Beaconing Detected (if triggered)
-![Beaconing Alert](screenshots/beaconing-alert.png)
-
 ---
 
 ## 🛠 Requirements
