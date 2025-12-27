@@ -9,11 +9,11 @@ Perfect for learning network security fundamentals and building a hands on cyber
 ## 📖 About
 
 This tool captures live network packets on a specified interface and displays key details (source/destination IP, ports, protocol, flags).  
-More importantly, it includes simple but effective detection rules to flag common threats — giving you practical exposure to how SOC analysts monitor and triage network activity.
+More importantly, it includes simple but effective detection rules to flag common threats, giving you practical exposure to how SOC analysts monitor and triage network activity.
 
 Built as an educational project to practice packet analysis, scripting detection logic, and understanding real-world network threats.
 
-No external dependencies beyond Scapy — just pure Python.
+No external dependencies beyond Scapy, just pure Python.
 
 ---
 
@@ -61,18 +61,9 @@ Here are real outputs from running the sniffer on a live server:
 
 ---
 
-## 🛠 Installation & Requirements
+## 🛠 Requirements
 
 ### Requirements
 - Python 3.6+
 - Scapy (`pip install scapy`)
 - Root/admin privileges (required for raw packet capture)
-
-### Setup
-```bash
-# Clone or download the repository
-git clone https://github.com/yourusername/simple-packet-sniffer-alert.git
-cd simple-packet-sniffer-alert
-
-# Install Scapy (if not already installed)
-pip install scapy
