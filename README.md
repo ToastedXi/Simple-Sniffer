@@ -48,10 +48,10 @@ No external dependencies beyond Scapy, just pure Python.
 Here are real outputs from running the sniffer on a live server:
 
 ### Normal Traffic Capture
-![Normal Traffic](screenshots/normal-traffic.png)
+![Normal Traffic](normal-traffic.png)
 
 ### Suspicious Long DNS Query Alert (Potential Tunneling)
-![Long DNS Alert](screenshots/long-dns-alert.png)
+![Long DNS Alert](long-dns-alert.png)
 
 ---
 
